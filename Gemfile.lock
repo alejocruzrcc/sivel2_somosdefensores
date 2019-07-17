@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/pasosdeJesus/heb412_gen.git
-  revision: 780adfa379cda800bee0dee8827ff32e69316b80
+  revision: c292d6c1490fd3c74362c83e2557b91891107ece
+  branch: sintemas
   specs:
     heb412_gen (1.0.b6)
       chosen-rails
@@ -12,7 +13,8 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/mr519_gen.git
-  revision: 156022970394d3fa3cca9281228e09b8486ef3dd
+  revision: 2f093ee860ed3f161dbcbe16fbe44f9dfc14ffc4
+  branch: sintemas
   specs:
     mr519_gen (0.2.0)
       rails (~> 6.0.0.rc1, >= 6.0.0.rc1)
@@ -20,7 +22,8 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: d4f9c932c91990455535d06609782bd182cbb76c
+  revision: 6a7f927fde50807da9389f7f9fb3d80e78f585e4
+  branch: sintemas
   specs:
     sip (2.0.b6)
       bootstrap-datepicker-rails
@@ -42,7 +45,8 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sivel2_gen.git
-  revision: 5fad3781d356aa6a16d22d20d5d2af4837a19ceb
+  revision: 0d11d125f65f1613666406494e0c53a604f95f7d
+  branch: sintemas
   specs:
     sivel2_gen (2.0b9)
       devise
@@ -236,10 +240,6 @@ GEM
       terrapin (~> 0.6.0)
     pdf-core (0.7.0)
     pg (1.1.4)
-    pick-a-color-rails (0.0.1)
-      jquery-rails
-      railties (>= 3.0)
-      tiny-color-rails
     poltergeist (1.18.1)
       capybara (>= 2.1, < 4)
       cliver (~> 0.3.1)
@@ -354,8 +354,6 @@ GEM
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.9)
-    tiny-color-rails (0.0.2)
-      railties (>= 3.0)
     ttfunk (1.5.1)
     turbolinks (5.2.0)
       turbolinks-source (~> 5.2)
@@ -422,7 +420,6 @@ DEPENDENCIES
   odf-report
   paperclip
   pg
-  pick-a-color-rails
   poltergeist
   prawn
   prawn-table
@@ -443,7 +440,6 @@ DEPENDENCIES
   sip!
   sivel2_gen!
   spring
-  tiny-color-rails
   turbolinks
   twitter-bootstrap-rails
   twitter_cldr
